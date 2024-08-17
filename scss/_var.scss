@@ -1,0 +1,27 @@
+$color-main: #171717;
+$color-primary: #d3ac3f;
+$color-secondary: #2b2b2b;
+$color-text: #fff;
+$color-pink:#d7339b;
+
+$font: Inter, sans-serif;
+$font2: russo-one, sans-serif;
+
+// *  ШАБЛОН
+%titleSecond {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 10px black;
+}
+
+// ?  МИКСИН
+@mixin font($name, $weight) {
+  font: {
+    family: $name;
+    weight: $weight;
+    display: swap;
+  }
+  src: url("../fonts/#{ $name }-#{ $weight }.woff2") format("woff2"),
+    url("../fonts/#{ $name }-#{ $weight }.woff") format("woff"),
+}

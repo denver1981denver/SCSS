@@ -1,0 +1,9 @@
+.hero {
+	background-color: $color-pink;
+
+	&__title {
+		font-family: $font2;
+		font-weight: 400;
+		@extend %titleSecond;
+	}
+}

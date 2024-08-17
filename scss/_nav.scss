@@ -1,0 +1,33 @@
+.nav {
+  &__list {
+    background-color: $color-primary;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 200px;
+    list-style-type: none;
+
+    @media(max-width: 1200px) {
+      flex-direction: column;
+    };
+  }
+   &__item {
+    border: 3px solid black;
+    border-radius: 10px;
+   }
+   &__link {
+    text-decoration: none;
+    font-size: 30px;
+    will-change: color;
+    transition: color 0.2s ease;
+      &--active {
+      color: red;
+     }
+     &:hover {
+      color: $color-text;
+     }
+   }
+  
+  // &__
+  // &__
+}

@@ -1,0 +1,7 @@
+npm i sass -g  - установить SASS глобально (работает дл€ SASS и SCSS)
+
+sass index.scss index.css - скомпилировать
+
+sass --watch index.scss index.css  автоматическа€ компил€ци€
+
+sass --watch scss:css - автоматическа€ компил€ци€ из папки в папку

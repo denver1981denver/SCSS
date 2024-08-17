@@ -1,0 +1,16 @@
+// @font-face {
+//   font-family: $font;
+//   src: url('../fonts/russo-one.woff2')
+// }
+
+@font-face {
+  @include font(russo-one, 400)
+}
+
+@font-face {
+  @include font(Inter, 400)
+}
+
+@font-face {
+  @include font(Inter, 700)
+}
